@@ -1,0 +1,38 @@
+.movie-list {
+    width: 80%;
+    margin: 0 auto !important;
+    margin-top: 6% !important;
+    margin-bottom: 3% !important;
+    border-radius: 8px !important;
+    box-shadow: 2px 2px 2px 2px grey;
+
+    .ant-list-header {
+        background-color: #001529;
+        border-radius: 8px !important;
+
+        h2{
+            text-align: center;
+            margin: 0;
+            color: #fff;
+        }
+    }
+
+    .ant-list-items {
+        height: 500px;
+        overflow: scroll;
+    }
+
+    &__movie {
+        .ant-list-item-meta {
+            align-items: center;
+        }
+        .ant-list-item-meta-title {
+            margin: 0;
+        }
+    }
+
+    &__movie:hover{
+        background-color: rgb(214, 214, 214);
+        border-radius: 4px;
+    }
+}
